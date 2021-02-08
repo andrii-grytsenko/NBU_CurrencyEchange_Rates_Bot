@@ -1,0 +1,14 @@
+States:
+
+STATE01    main_screen
+Available commands:
+CMD01       USD
+CMD02       EUR
+CMD03       GBP
+CMD04       CHF
+CMD05       List of Currencies
+
+
+STATE02    choose_from_list
+CMD06       <Currency code from the list>
+CMD07       Main menu

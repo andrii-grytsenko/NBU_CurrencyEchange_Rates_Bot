@@ -1,0 +1,46 @@
+Commands:
+
+/start
+    Message to display:
+    Welcome!
+    I can inform You about actual currency rates provided by NBU.
+    Choose options from below.
+
+    Action to perform:
+    none
+
+    Resulted state:
+    STATE01    main_screen
+
+USD, EUR, GBP, CHF
+    Message to display:
+    Processing...
+
+    Action to perform:
+    Use API to get currency rate for {CURRENCY_CODE}
+    Display actual rate for {CURRENCY_CODE}
+
+    Resulted state:
+    STATE01    main_screen
+
+List of Currencies
+    Message to display:
+    Processing...
+
+    Action to perform:
+    Use API to get list of available currencies
+    Create keyboard if not exists
+    Display message: "Choose currency code from listed below"
+
+    Resulted state:
+    STATE02    choose_from_list
+
+Main menu
+    Message to display:
+    Choose options from below.
+
+    Action to perform:
+    none
+
+    Resulted state:
+    STATE01    main_screen
